@@ -33,6 +33,7 @@ public class JsonComparator {
         return mismatches;
     }
 
+
     private static String generatePrimaryKey(JSONObject obj, List<String> primaryKeys) {
         StringBuilder primaryKey = new StringBuilder();
 
